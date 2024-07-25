@@ -12,7 +12,9 @@ from gtts import gTTS
 from PIL import Image
 
 
-st.title("LangVault 🗨️")
+st.set_page_config(page_title="LangVault", layout="wide")
+st.title("LangVault 📑")
+
 def text_speech(text):
     tts = gTTS(text=text, lang='hi')
     speech_bytes = io.BytesIO()
