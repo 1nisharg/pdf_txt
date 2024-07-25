@@ -11,6 +11,8 @@ import PyPDF2
 from gtts import gTTS
 from PIL import Image
 
+
+st.title("LangVault 🗨️")
 def text_speech(text):
     tts = gTTS(text=text, lang='hi')
     speech_bytes = io.BytesIO()
