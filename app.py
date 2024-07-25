@@ -15,6 +15,15 @@ from PIL import Image
 st.set_page_config(page_title="LangVault", layout="wide")
 st.title("LangVault 📑")
 
+st.sidebar.title("LangVault By OpenRAG")
+st.sidebar.markdown(
+    """
+    🌟 **Introducing LangVault by OpenRAG: Your translator Companion!** 📚
+
+Get ready to experience a different world of books and documents with making and reading your own pdfs and books more accessible to everyone in different languages and make it available worldwide.
+    """
+)
+
 def text_speech(text):
     tts = gTTS(text=text, lang='hi')
     speech_bytes = io.BytesIO()
