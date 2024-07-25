@@ -1,0 +1,13 @@
+englisttohindi==4.1.0
+pdf2image==1.17.0
+Pillow==9.4.0
+pytesseract==0.3.10
+streamlit==1.34.0
+textblob==0.17.1
+poppler-utils
+langchain-google-genai
+streamlit-scrollable-textbox
+PyPDF2
+gTTS
+streamlit-TTS
+langchain-groq
