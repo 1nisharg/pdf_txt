@@ -89,5 +89,5 @@ if "extracted_txt" in st.session_state:
     tx = st.session_state.extracted_txt  
     b = st.button("Download in txt format")
     if b:
-        lnk2 = create_download_link(tx, "output_chatgroq.txt") 
+        lnk2 = create_download_link(tx, "langvault.txt") 
         st.markdown(lnk2, unsafe_allow_html=True)
